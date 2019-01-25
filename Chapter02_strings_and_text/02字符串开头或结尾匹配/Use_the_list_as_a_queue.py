@@ -6,10 +6,10 @@ Created on 2018年7月10日
 '''
 from collections import deque
 queue = deque(["Eric", "John", "Michael"])
-queue.append("Terry")
-queue.append("Graham")
-print(queue)
-print(queue.popleft())
+queue.append("Terry") # 队列增加元素
+queue.append("Graham") # 队列增加元素
+print(queue) 
+print(queue.popleft()) # 移除列表中的左侧一个元素，且返回该元素的值
 print(queue)
 print(queue.popleft())
 print(queue)
